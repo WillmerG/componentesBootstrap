@@ -56,7 +56,8 @@
               name="dp"
               [(ngModel)]="model2"
               ngbDatepicker
-
+              type="text"
+              rInputMask="99/99/9999"
               [dayTemplate]="customDay"
               [markDisabled]="isWeekend"
               #d="ngbDatepicker">
